@@ -20,13 +20,13 @@ int main()
 
     case 1:
         for (i=0; (i < 75 && str[i]!='\0'); i++)
-        str[i] = str[i] + 2;
+        str[i] = str[i] + 3;
         cout << "\n Message Encrypted: " << str << endl;
         break;
 
     case 2:
         for (i = 0; (i < 75 && str[i] != '\0'); i++)
-        str[i] = str[i]-2;
+        str[i] = str[i]-3;
         cout << "\n Decrypted Message: " << str << endl;
         break;
     default:
